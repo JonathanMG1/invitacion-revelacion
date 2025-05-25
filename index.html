@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Invitacion revelacion genero</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 40px;
+        background-color: antiquewhite;
+        font: oblique bold 120% cursive;
+      }
+      video {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      .botones {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      }
+      .botones a {
+        text-decoration: none;
+        color: white;
+        padding: 14px 28px;
+        border-radius: 50px;
+        font-size: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
+        font: oblique bold 120% cursive;
+      }
+      .botones a:hover {
+        transform: scale(1.05);
+      }
+      .confirmar {
+        background-color: #ff8fb1; /* rosado */
+      }
+      .ubicacion {
+        background-color: #3891bb; /* celeste */
+      }
+      @media (min-width: 600px) {
+        .botones {
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        .botones a {
+          width: auto;
+          font-size: 1.2em;
+          padding: 12px 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <video controls>
+      <source src="video/VideoRevelacion.mp4" type="video/mp4" />
+      Tu navegador no soporta el video.
+    </video>
+
+    <div class="botones">
+      <a
+        class="confirmar"
+        href="https://wa.me/+56953050541?text=Hola,%20confirmo%20mi%20asistencia%20a%20su%20revelaci%C3%B3n%20de%20genero.%20Nos%20vemos%C2%A0el%C2%A010%C2%A0de%C2%A0Julio%F0%9F%A7%B8%F0%9F%A9%B7%F0%9F%92%99"
+        >Confirmar asistencia</a
+      >
+      <a
+        class="ubicacion"
+        href="https://www.google.com/maps/place/Carmen+2440,+8940666+San+Joaqu%C3%ADn,+Regi%C3%B3n+Metropolitana/@-33.4769072,-70.6367438,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c54fe7873a37:0xca92c255f894138a!8m2!3d-33.4769117!4d-70.6341689!16s%2Fg%2F11cpdnzk6b?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+        >Ubicación</a
+      >
+    </div>
+  </body>
+</html>
